@@ -20,9 +20,9 @@ export default function Navbar({ scrolled, isHome }) {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
-          <div className={`size-10 rounded-full bg-[#F4F4F4] `}>
+          <div className={`size-12 rounded-full bg-white `}>
             <img
-              src="/logo.png"
+              src="logo.png"
               alt="Lifters Tech"
               className="w-full h-full object-cover"
             />
@@ -32,7 +32,7 @@ export default function Navbar({ scrolled, isHome }) {
               solid ? "text-slate-900" : "text-white"
             }`}
           >
-            LIFTERS<span className="text-blue-700">TECH</span>
+            LIFTERS <span className="text-blue-700">TECH</span>
           </span>
         </Link>
 

@@ -17,13 +17,13 @@ export default function Footer() {
             >
               <div className="w-10 h-10 rounded-full overflow-hidden bg-white">
                 <img
-                  src="/logo.png"
+                  src="logo.png"
                   alt="Lifters Tech"
                   className="w-full h-full object-cover"
                 />
               </div>
               <span className="text-white font-black text-xl tracking-widest uppercase font-display">
-                LIFTERS<span className="text-blue-400">TECH</span>
+                LIFTERS <span className="text-blue-400">TECH</span>
               </span>
             </button>
             <p className="text-slate-400 text-sm leading-relaxed">
